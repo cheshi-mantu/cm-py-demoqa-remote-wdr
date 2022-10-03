@@ -53,7 +53,7 @@ def setup_browser(request):
     remote_drv = os.getenv('REMOTE_DRV')
 
     driver = webdriver.Remote(
-        command_executor=f"http://{remote_drv}",
+        command_executor=f"{remote_drv}",
         options=options
     )
     browser.config.driver = driver
