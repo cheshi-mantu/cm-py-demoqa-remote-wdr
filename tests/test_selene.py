@@ -8,10 +8,10 @@ def test_github(setup_browser):
     browser.open("https://github.com/")
 
     s('.header-search-input').click()
-    s('.header-search-input').send_keys('Bodan1992/Bodan1992-JS')
+    s('.header-search-input').send_keys('cheshi-mantu/playwright-example')
     s('.header-search-input').submit()
 
-    s(by.link_text("Bodan1992/Bodan1992-JS")).click()
+    s(by.link_text("cheshi-mantu/playwright-example")).click()
 
     s("#issues-tab").click()
 
@@ -23,10 +23,10 @@ def test_github_new(setup_browser):
     browser.open("https://github.com/")
 
     s('.header-search-input').click()
-    s('.header-search-input').send_keys('Bodan1992/Bodan1992-JS')
+    s('.header-search-input').send_keys('cheshi-mantu/playwright-example')
     s('.header-search-input').submit()
 
-    s(by.link_text("Bodan1992/Bodan1992-JS")).click()
+    s(by.link_text("cheshi-mantu/playwright-example")).click()
 
     s("#issues-tab").click()
 
