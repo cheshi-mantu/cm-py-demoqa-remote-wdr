@@ -11,11 +11,11 @@ def test_github(setup_browser):
 
     with allure.step('Searching for a repository'):
         s('.header-search-input').click()
-        s('.header-search-input').send_keys('Bodan1992/Bodan1992-JS')
+        s('.header-search-input').send_keys('cheshi-mantu/playwright-example')
         s('.header-search-input').submit()
 
     with allure.step('Follow the repository link'):
-        s(by.link_text("Bodan1992/Bodan1992-JS")).click()
+        s(by.link_text("cheshi-mantu/playwright-example")).click()
 
     with allure.step('Switch to tab Issues'):
         s("#issues-tab").click()
