@@ -51,7 +51,7 @@ def setup_browser(request):
     options.capabilities.update(selenoid_capabilities)
 
     remote_drv = os.getenv('REMOTE_DRV')
-    print(f"AAAAAAAAA " + {remote_drv})
+    print(f"AAAAAAAAA {remote_drv}")
 
     driver = webdriver.Remote(
         command_executor=f"{remote_drv}",
