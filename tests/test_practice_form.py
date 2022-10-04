@@ -17,6 +17,7 @@ def test_submit_automation_practice_form(setup_browser):
     with allure.step("Remove ads"):
         arrange_form_opened()
 
+
     with allure.step("Fill form"):
         (
             StudentRegistrationForm()
