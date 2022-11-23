@@ -17,7 +17,7 @@ def browser_management():
     )
     browser.config.timeout = float(os.getenv('selene.timeout', '3'))
     browser.config.window_width = 1920
-    browser.config.window_height = 1280
+    browser.config.window_height = 1920
 
 
 DEFAULT_BROWSER_VERSION = "100.0"
