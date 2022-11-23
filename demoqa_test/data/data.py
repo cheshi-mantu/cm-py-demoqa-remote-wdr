@@ -1,14 +1,14 @@
 
 class Student:
-    name = 'Bohdan'
-    surname = 'Obruch'
-    email = 'bodan@gmail.com'
-    mobile_number = '0960263611'
+    name = 'Rabindranat'
+    surname = 'Thagor'
+    email = 'rthagor@gmail.com'
+    mobile_number = '0000000000'
     day = 1
     month = 0
-    year = 1992
+    year = 1922
     date_of_birth = '01 January,1992'
-    address = 'г.Киев, ул.Академика Туполева 20в'
+    address = 'Delhi, Lefto to the Right'
     state = 'Haryana'
     city = 'Karnal'
     avatar = 'photo.jpg'
