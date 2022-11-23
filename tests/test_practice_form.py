@@ -1,3 +1,5 @@
+import time
+
 from selene import have
 from selene.support.shared.jquery_style import s
 
@@ -16,6 +18,8 @@ def test_submit_automation_practice_form(setup_browser):
 
     with allure.step("Remove ads"):
         arrange_form_opened()
+
+    time.sleep(10)
 
     with allure.step("Fill form"):
         (
